@@ -1,0 +1,20 @@
+<script>
+  const links = {
+"INgSvBSM.mp4": "https://www.profitablecpmratenetwork.com/tt5siafv2?key=c68575346584e4fd5456385a3409b4f2",
+"7j4KhyWY.mp4": "https://www.profitablecpmratenetwork.com/tt5siafv2?key=c68575346584e4fd5456385a3409b4f2",
+    
+
+
+  };
+
+  let path = window.location.pathname;
+
+  // kalau pakai repo project
+  path = path.replace("/cdn/", "").replace("/", "");
+
+  if (links[path]) {
+    window.location.href = links[path];
+  } else {
+    document.body.innerHTML = "Link tidak ditemukan";
+  }
+</script>
